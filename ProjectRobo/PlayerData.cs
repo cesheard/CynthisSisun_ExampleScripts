@@ -14,7 +14,7 @@ public class PlayerData
 
     public PlayerData(PlayerMovement player, LevelManager levelManager)
     {
-        // The statuses of the doors when the player save
+        // The statuses of the doors when the player saves
         int numberOfDoors = levelManager.DoorList.Count;
         doorStatus = new bool[numberOfDoors];
         for (int i = 0; i < numberOfDoors; i++)
@@ -104,7 +104,5 @@ public class PlayerData
 
 
     } // End of PlayerData(PlayerMovement player)
-
-
 
 }
